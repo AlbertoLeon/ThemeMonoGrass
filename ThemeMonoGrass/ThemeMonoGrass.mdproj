@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E19C7C1C-EDB2-4F8E-9BD7-658DDAEF4307}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="css\960.css" />
+    <None Include="css\fonts.css" />
+    <None Include="css\home.css" />
+    <None Include="css\news.css" />
+    <None Include="css\project.css" />
+    <None Include="css\reset.css" />
+    <None Include="css\text.css" />
+    <None Include="images\12_col.gif" />
+    <None Include="images\16_col.gif" />
+    <None Include="images\action_box-bg.png" />
+    <None Include="images\action_button-bg.png" />
+    <None Include="images\categories_list-arrow.png" />
+    <None Include="images\favicon.png" />
+    <None Include="images\focus-bg.png" />
+    <None Include="images\footer-map.png" />
+    <None Include="images\gnome-logo.png" />
+    <None Include="images\go-next.png" />
+    <None Include="images\go-previous.png" />
+    <None Include="images\grass.png" />
+    <None Include="images\hr-shadow.png" />
+    <None Include="images\html-bg.png" />
+    <None Include="images\language-selector-bg.png" />
+    <None Include="images\language-selector-wanda-bg.png" />
+    <None Include="images\more-arrow.png" />
+    <None Include="images\search-icon.png" />
+    <None Include="images\top_bar-bg.png" />
+    <None Include="images\top_bar-item-bg.png" />
+    <None Include="images\top_bar-item-home.png" />
+    <None Include="images\top_bar-item-hover-bg.png" />
+    <None Include="images\video-play.png" />
+    <None Include="images\applications\application-default-icon-186x186.png" />
+    <None Include="images\applications\application-default-icon-256x256.png" />
+    <None Include="images\applications\application-default-icon-64x64.png" />
+    <None Include="images\applications\download_button-icon.png" />
+    <None Include="images\applications\featured-icon.png" />
+    <None Include="images\applications\install-debian.png" />
+    <None Include="images\applications\install-default.png" />
+    <None Include="images\applications\install-fedora.png" />
+    <None Include="images\applications\install-gnome.png" />
+    <None Include="images\applications\install-macosx.png" />
+    <None Include="images\applications\install-opensuse.png" />
+    <None Include="images\applications\install-ubuntu.png" />
+    <None Include="images\applications\install-windows.png" />
+    <None Include="images\applications\screenshots-slider-button.png" />
+    <None Include="images\footer_arts\404.png" />
+    <None Include="images\footer_arts\applications.png" />
+    <None Include="images\footer_arts\art-2.png" />
+    <None Include="images\footer_arts\art.png" />
+    <None Include="images\footer_arts\community.png" />
+    <None Include="images\footer_arts\default.png" />
+    <None Include="images\footer_arts\i18n.png" />
+    <None Include="images\footer_arts\readme.txt" />
+    <None Include="images\footer_arts\search.png" />
+    <None Include="images\footer_arts\search_no-results.png" />
+    <None Include="images\footer_arts\support.png" />
+    <None Include="images\home\banner-shadow.png" />
+    <None Include="images\social_networks\facebook.png" />
+    <None Include="images\social_networks\identica.png" />
+    <None Include="images\social_networks\twitter.png" />
+    <None Include="js\jquery-1.4.2.min.js" />
+    <None Include="js\jquery.easing-1.3.pack.js" />
+    <None Include="js\project.js" />
+    <None Include="js\template.js" />
+    <None Include="style.css" />
+    <None Include="index.php" />
+  </ItemGroup>
+</Project>
