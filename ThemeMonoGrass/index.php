@@ -15,7 +15,7 @@ if (function_exists('wppo_get_lang')) {
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $current_lang;?>" lang="<?php echo $current_lang;?>">
 
-<!-- Good morning, GNOME -->
+<!-- Buenos días, Mono -->
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name'); ?></title>

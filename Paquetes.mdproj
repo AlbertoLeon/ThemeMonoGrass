@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ACFFDFA1-750D-467F-8DDA-C5881D2AE5E6}</ProjectGuid>
+    <Packages>
+      <Packages xmlns="">
+        <Package name="Tarball">
+          <Builder TargetDirectory="." DefaultConfiguration="Default" ctype="TarballDeployTarget">
+            <ChildEntries>
+              <SolutionItemReference path="ThemeMonoGrass\ThemeMonoGrass.mdproj" />
+            </ChildEntries>
+            <RootEntry path="ThemeMonoGrass.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

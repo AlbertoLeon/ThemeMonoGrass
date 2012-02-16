@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "ThemeMonoGrass", "ThemeMonoGrass\ThemeMonoGrass.mdproj", "{E19C7C1C-EDB2-4F8E-9BD7-658DDAEF4307}"
 EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Paquetes", "Paquetes.mdproj", "{ACFFDFA1-750D-467F-8DDA-C5881D2AE5E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Any CPU = Default|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFFDFA1-750D-467F-8DDA-C5881D2AE5E6}.Default|Any CPU.ActiveCfg = Default|Any CPU
 		{E19C7C1C-EDB2-4F8E-9BD7-658DDAEF4307}.Default|Any CPU.ActiveCfg = Default|Any CPU
 		{E19C7C1C-EDB2-4F8E-9BD7-658DDAEF4307}.Default|Any CPU.Build.0 = Default|Any CPU
 	EndGlobalSection
