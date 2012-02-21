@@ -50,7 +50,7 @@ if (function_exists('wppo_get_lang')) {
         <div id="global_domain_bar">
             <div class="maxwidth">
                 <div class="tab">
-                    <a class="root" href="http://www.gnome.org/">GNOME.org</a>
+                    <a class="root" href="http://www.mono-hispano.org/">MONO HISPANO.org</a>
                 </div>
             </div>
         </div>
