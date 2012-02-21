@@ -1,11 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ThemeMonoGrass/images/footer_arts/readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ThemeMonoGrass/css/fonts.css">
     <Files>
-      <File FileName="../../../Projects/CodeNameSauron/CodeNameSauron.Mac/Main.cs" Line="1" Column="1" />
-      <File FileName="ThemeMonoGrass/style.css" Line="5" Column="75" />
+      <File FileName="ThemeMonoGrass/style.css" Line="1" Column="1" />
       <File FileName="ThemeMonoGrass/images/footer_arts/readme.txt" Line="20" Column="1" />
-      <File FileName="ThemeMonoGrass/index.php" Line="18" Column="23" />
+      <File FileName="ThemeMonoGrass/index.php" Line="53" Column="43" />
+      <File FileName="ThemeMonoGrass/index.html" Line="114" Column="5" />
+      <File FileName="../gnome-grass/header.php" Line="1" Column="1" />
+      <File FileName="../gnome-grass/footer.php" Line="49" Column="5" />
+      <File FileName="../gnome-grass/functions.php" Line="167" Column="41" />
+      <File FileName="ThemeMonoGrass/css/home.css" Line="1" Column="1" />
+      <File FileName="ThemeMonoGrass/css/news.css" Line="1" Column="1" />
+      <File FileName="ThemeMonoGrass/css/project.css" Line="1" Column="1" />
+      <File FileName="ThemeMonoGrass/css/text.css" Line="1" Column="1" />
+      <File FileName="ThemeMonoGrass/css/fonts.css" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

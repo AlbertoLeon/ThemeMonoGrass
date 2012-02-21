@@ -77,5 +77,33 @@
     <None Include="js\template.js" />
     <None Include="style.css" />
     <None Include="index.php" />
+    <None Include="index.html" />
+    <None Include="js\pack\fancybox-1.3.4\blank.gif" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_close.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_loading.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_nav_left.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_nav_right.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_e.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_n.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_ne.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_nw.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_s.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_se.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_sw.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_shadow_w.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_title_left.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_title_main.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_title_over.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancy_title_right.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancybox-x.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancybox-y.png" />
+    <None Include="js\pack\fancybox-1.3.4\fancybox.png" />
+    <None Include="js\pack\fancybox-1.3.4\jquery.easing-1.3.pack.js" />
+    <None Include="js\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.css" />
+    <None Include="js\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.js" />
+    <None Include="js\pack\fancybox-1.3.4\jquery.fancybox-1.3.4.pack.js" />
+    <None Include="js\pack\jcarousel\jquery.jcarousel.min.js" />
+    <None Include="fonts\Cantarell-Bold.otf" />
+    <None Include="fonts\Cantarell-Regular.otf" />
   </ItemGroup>
 </Project>
