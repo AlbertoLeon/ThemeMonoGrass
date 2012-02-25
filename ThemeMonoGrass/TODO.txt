@@ -1,0 +1,7 @@
+* Fuente del logotipo del proyecto Mono - arial rounded -Gracias a Máximo Gavete Macías por descubrir cual era. 25/Febrero/2012
+* Logotipo proyecto MONO 25/Febrero/2012
+* Pies personalizados PENDIENTE
+* Conversión a Wordpress 3.X
+* Página Simple PENDIENTE
+
+

@@ -27,7 +27,6 @@
     <None Include="images\favicon.png" />
     <None Include="images\focus-bg.png" />
     <None Include="images\footer-map.png" />
-    <None Include="images\gnome-logo.png" />
     <None Include="images\go-next.png" />
     <None Include="images\go-previous.png" />
     <None Include="images\grass.png" />
@@ -105,5 +104,6 @@
     <None Include="js\pack\jcarousel\jquery.jcarousel.min.js" />
     <None Include="fonts\Cantarell-Bold.otf" />
     <None Include="fonts\Cantarell-Regular.otf" />
+    <None Include="TODO.txt" />
   </ItemGroup>
 </Project>
