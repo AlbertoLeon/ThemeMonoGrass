@@ -105,5 +105,9 @@
     <None Include="fonts\Cantarell-Bold.otf" />
     <None Include="fonts\Cantarell-Regular.otf" />
     <None Include="TODO.txt" />
+    <None Include="header.php" />
+    <None Include="footer_art.php" />
+    <None Include="footer_language-selector.php" />
+    <None Include="footer.php" />
   </ItemGroup>
 </Project>

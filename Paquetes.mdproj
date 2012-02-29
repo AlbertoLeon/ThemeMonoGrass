@@ -6,7 +6,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ACFFDFA1-750D-467F-8DDA-C5881D2AE5E6}</ProjectGuid>
     <Packages>
-      <Packages xmlns="">
+      <Packages>
         <Package name="Tarball">
           <Builder TargetDirectory="." DefaultConfiguration="Default" ctype="TarballDeployTarget">
             <ChildEntries>

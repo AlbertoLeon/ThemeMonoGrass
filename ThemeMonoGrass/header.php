@@ -1,6 +1,5 @@
 <?php
 
-
 if (function_exists('wppo_get_lang')) {
     $current_lang = str_replace('_', '-', strtolower(wppo_get_lang()));
     if (strpos($current_lang, '-') !== false) {
@@ -15,7 +14,7 @@ if (function_exists('wppo_get_lang')) {
 ?><!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $current_lang;?>" lang="<?php echo $current_lang;?>">
 
-<!-- Buenos días, Mono -->
+<!-- Good morning, GNOME -->
 <head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name'); ?></title>
@@ -25,13 +24,14 @@ if (function_exists('wppo_get_lang')) {
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.4.2.min.js"></script>
 
 <!-- Fancybox -->
-<script type="text/javascript" src="js/pack/fancybox-1.3.4/jquery.easing-1.3.pack.js"></script>
-<script type="text/javascript" src="js/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.pack.js"></script>
-<link rel="stylesheet" type="text/css" media="all" href="js/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.css" />
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/pack/fancybox-1.3.4/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_directory'); ?>/pack/fancybox-1.3.4/jquery.fancybox-1.3.4.css" />
 
-<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/template.js"></script>
 <?php wp_head(); ?>
 </head>
+
 
 <body>
 
@@ -43,23 +43,19 @@ if (function_exists('wppo_get_lang')) {
             <li><a href="#s" onclick="$('#s').focus(); return false;"><?php _e( 'Go to the search field', 'grass' ); ?></a></li>
         </ul>
     </div>
-
-    
     
     <!-- global gnome.org domain bar -->
-        <div id="global_domain_bar">
-            <div class="maxwidth">
-                <div class="tab">
-                    <a class="root" href="http://www.mono-hispano.org/">MONO HISPANO.org</a>
-                </div>
-            </div>
+    <div id="global_domain_bar">
+        <div>
+            <a href="/"><strong>GNOME</strong>.ORG</a>
         </div>
+    </div>
     
     
     <!-- header -->
     <div id="header" class="container_12">
         <div id="logo" class="grid_3">
-            <h1><a title="<?php _e( 'Ir al inicio', 'grass' ); ?>" href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mono-logo.png" alt="<?php echo _e('MONO: Proyecto Open Source, multiplataforma, implementación de C# y el CLR que es compatible binariamente con Microsoft .Net', 'grass');?>" /></a></h1>
+            <h1><a title="<?php _e( 'Go to home page', 'grass' ); ?>" href="<?php echo home_url('/'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/gnome-logo.png" alt="<?php echo _e('GNOME: The Free Software Desktop Project', 'grass');?>" /></a></h1>
         </div>
         <div id="top_bar" class="grid_9">
             <div class="left">
